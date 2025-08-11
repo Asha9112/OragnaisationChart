@@ -47,7 +47,7 @@ document.getElementById('refreshBtn').addEventListener('click', () => {
   lastData = originalData;
 });
 
-document.getElementById('backBtn').addEventListener('click', () => {
+  document.getElementById('backBtn').addEventListener('click', () => {
   document.getElementById('chart_div').style.display = 'none';
   document.getElementById('search').style.display = 'none';
   document.getElementById('refreshBtn').style.display = 'none';
