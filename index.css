@@ -46,15 +46,18 @@ body {
 
 #page-title1,
 .header h2 {
-  .heading-texts h2 { 
-    margin: 0; font-size: 80px;
-    font-weight: 900; 
-   background: linear-gradient(to right, #ff0000, #3801fd, #00c9ff, white); 
-   -webkit-background-clip: text; 
-   -webkit-text-fill-color: transparent; 
-   background-size: 200% auto; 
-   animation: shineText 5s linear infinite; 
-   text-shadow: 3px 3px 6px rgba(0,0,0,0.5);}
+  font-size: 2em;
+  font-weight: 1000;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background: linear-gradient(to right, #ff0000, #3801fd, #00c9ff, white);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+  animation: shineText 5s linear infinite;
 }
 
 /* Upload Section */
